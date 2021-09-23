@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
     inputs:
       version:
-      descritpion: 'The local-path-provisioner'
-      required: true
+        descritpion: 'The local-path-provisioner'
+        required: true
   schedule:
     - cron: '0 0 * * *'
 
